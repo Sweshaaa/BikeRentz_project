@@ -1,0 +1,52 @@
+.br-notif-wrapper {
+  position: relative;
+}
+
+.br-notif-btn {
+  position: relative;
+}
+
+.br-notif-dot {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  background: var(--br-accent);
+  color: var(--br-black);
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1px 5px;
+}
+
+.br-notif-dropdown {
+  position: absolute;
+  right: 0;
+  top: 36px;
+  width: 280px;
+  background: var(--br-charcoal);
+  border: 1px solid var(--br-charcoal-light);
+  border-radius: var(--br-radius);
+  padding: 8px;
+  max-height: 320px;
+  overflow-y: auto;
+  z-index: 60;
+}
+
+.br-notif-item {
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--br-gray);
+}
+
+.br-notif-item.unread {
+  color: var(--br-white);
+  background: var(--br-charcoal-light);
+}
+
+.br-notif-empty {
+  text-align: center;
+  color: var(--br-gray);
+  padding: 20px;
+  font-size: 13px;
+}
