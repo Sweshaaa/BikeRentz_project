@@ -1,0 +1,29 @@
+.br-bikes-page {
+  padding: 40px 60px;
+}
+
+.br-filters {
+  display: flex;
+  gap: 12px;
+  margin: 24px 0 32px;
+  flex-wrap: wrap;
+}
+
+.br-filters input, .br-filters select {
+  background: var(--br-charcoal);
+  border: 1px solid var(--br-charcoal-light);
+  color: var(--br-white);
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
+.br-filters input {
+  flex: 1;
+  min-width: 220px;
+}
+
+.br-bikes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
