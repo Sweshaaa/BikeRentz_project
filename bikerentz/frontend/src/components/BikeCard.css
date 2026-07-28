@@ -1,0 +1,63 @@
+.br-bike-card {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.br-bike-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--br-accent);
+}
+
+.br-bike-image {
+  height: 180px;
+  background-color: var(--br-charcoal-light);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 10px;
+}
+
+.br-bike-info {
+  padding: 16px;
+}
+
+.br-bike-brand {
+  color: var(--br-gray);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.br-bike-info h3 {
+  margin: 4px 0 10px;
+  font-size: 18px;
+}
+
+.br-bike-spec {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--br-gray);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.br-bike-category {
+  margin-left: auto;
+  background: var(--br-charcoal-light);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.br-bike-price {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--br-accent);
+}
+
+.br-bike-price span {
+  font-size: 12px;
+  color: var(--br-gray);
+  font-weight: 400;
+}
